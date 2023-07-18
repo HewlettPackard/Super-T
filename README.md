@@ -4,7 +4,9 @@ This repository contains the files for operating the Super-T Dot Product Engine 
 ### Quick Start
 
 (1) Get all the packages you'll need to run the code.
-$ pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 (2) Open Jupyter lab environment.
 
