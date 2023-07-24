@@ -1,0 +1,14 @@
+### 
+pyserial
+numpy
+pandas
+matplotlib
+jupyter
+jupyterlab
+jupyter_contrib_nbextensions
+PyQt5
+dill
+scipy
+bitstring
+scikit-image
+qimage2ndarray
