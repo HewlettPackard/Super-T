@@ -249,7 +249,7 @@ class DPE:
         Args:
             array(int):                 The array number to program
             Gtarget(np.array):          The target conductance matrix
-            Msel(np.array(np.bool)):    Mask for selected devices to program
+            Msel(np.array(bool)):    Mask for selected devices to program
 
         '''
         vSetRamp = kwargs['vSetRamp'] if 'vSetRamp' in kwargs.keys() else [1, 3.5, 1]
@@ -315,8 +315,8 @@ class DPE:
         vGateReset = np.zeros(self.shape)
 
         Mbound = np.zeros(self.shape)
-        Mset = np.ones(self.shape, dtype=np.bool)
-        Mreset = np.ones(self.shape, dtype=np.bool)
+        Mset = np.ones(self.shape, dtype=bool)
+        Mreset = np.ones(self.shape, dtype=bool)
 
         # Main programming cycle
         for s in range(maxSteps):
